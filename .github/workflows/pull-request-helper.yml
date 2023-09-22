@@ -1,6 +1,7 @@
 name: Pull request helper
 on:
   pull_request_target:
+  workflow_dispatch:
 
 jobs:
   pull-request-helper:
